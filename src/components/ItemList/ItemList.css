@@ -1,15 +1,12 @@
-/* IMG HERO */
-.item__list--container {
-    background-image: url('../../assets/img/slide.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 700px;
-    margin-top: 100px;
+div .card {
+    margin: 0px 20px;
 }
-.item__list--container div {
+
+.item__count--number {
+    font-size: 25px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 700px;
+    justify-content: space-between;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    width: 100%;
 }
