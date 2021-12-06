@@ -1,15 +1,18 @@
 # Proyecto final
 
 React Js - Coderhouse
-### Implementación en vivo
+
+## Implementación en vivo
 
 [Proyecto React](https://dgfedon.github.io/proyecto_react/)
-### 🛠 Construido con:
+
+## 🛠 Construido con:
 
 **Tecnologías:** React JS, Javascript, Css, HTML
 
 **Estilos:** Bootstrap
-### Instalación React JS
+
+## Instalación React JS
 
 Este proyecto se inició con [Create React App](https://github.com/facebook/create-react-app).
 
