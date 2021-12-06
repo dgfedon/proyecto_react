@@ -1,6 +1,6 @@
 # Proyecto final
 
-React Js - Coderhouse
+React Js - Coderhouse.
 
 ## Implementación en vivo
 
@@ -8,13 +8,13 @@ React Js - Coderhouse
 
 ## 🛠 Construido con:
 
-**Tecnologías:** React JS, Javascript, Css, HTML
+**Tecnologías:** React JS, Javascript, CSS, HTML.
 
-**Estilos:** Bootstrap
+**Estilos:** Bootstrap.
 
 ## Instalación React JS
 
-Este proyecto se inició con [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto se inició con [Create React App](https://github.com/facebook/create-react-app):
 
 ```bash
   npx create-react-app my-app
@@ -22,7 +22,7 @@ Este proyecto se inició con [Create React App](https://github.com/facebook/crea
   npm install
 ```
 
-Aplicación en modo de desarrollo
+Aplicación en modo de desarrollo:
 ```bash
   npm start
 ```
