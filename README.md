@@ -8,9 +8,11 @@ React Js - Coderhouse.
 
 ## 🛠 Construido con:
 
-**Tecnologías:** React JS, Javascript, CSS, HTML.
+**Lenguajes:** Javascript, CSS, HTML.
 
-**Estilos:** Bootstrap.
+**Librería:** React JS.
+
+**Framework:** Bootstrap.
 
 ## Instalación React JS
 
