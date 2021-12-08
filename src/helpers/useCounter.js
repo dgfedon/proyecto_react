@@ -5,14 +5,12 @@ export const useCounter = (initial, stock) => {
     const [counter, setCounter] = useState(initial);
 
     const handleSum = () => {
-        if (counter < stock) {
+        (counter < stock) &&
             setCounter(prev => prev + 1)
-        }
     }
     const handleRest = () => {
-        if (counter > initial) {
+        (counter > initial) &&
             setCounter(prev => prev - 1)
-        }
     }
 
     return {

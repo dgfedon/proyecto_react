@@ -1,5 +1,18 @@
+.head--title {
+    height: 30vh;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 div .card {
-    margin: 0px 20px;
+    width: 18rem;
+    margin-bottom: 40px;
+}
+
+.card img {
+    height: 40vh;
 }
 
 .item__count--number {

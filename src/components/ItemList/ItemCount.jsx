@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import React from 'react';
-import { useCounter } from '../../hooks/useCounter';
+import { useCounter } from '../../helpers/useCounter';
 
 import './itemList.css';
 

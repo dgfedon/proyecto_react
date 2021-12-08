@@ -1,26 +1,33 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import ItemCount from './ItemCount';
+import { useState, useEffect } from "react";
+import { getFetch } from '../../helpers/getFetch';
+import Loading from "../animation/Loading";
+import ItemList from "./ItemList"
 
 import './itemList.css';
 
 
-function ItemListContainer() {
+function ItemListContainer( {greeting} ) {
 
-    const inicial = 1;
-    const max = 5;
+    const [products, setProducts] = useState([])
+    const [loading, setLoading] = useState(true)
+
+    useEffect(() => {
+        getFetch
+        .then(respData => setProducts(respData))
+        .catch(error => console.log(error))
+        .finally(() => setLoading(false))
+    }, [])
 
     return (
         <>
-            <Card style={{width: '18rem'}}>
-                {/* <Card.Img variant="top" src="" /> */}
-                <Card.Body>
-                    <Card.Title className="text-center">Nombre Prod</Card.Title>
-                    <Card.Text className="text-center">Descripción Prod</Card.Text>
-                    <ItemCount initial={inicial} stock={max} />
-                    <Button variant="secondary" className="mt-2 w-100">Agregar al carrito</Button>
-                </Card.Body>
-            </Card>
+            <h2 className="head--title">{greeting}</h2>
+            <div className="d-flex justify-content-center">
+                { loading ? 
+                    <Loading />
+                    :
+                    <ItemList products={products} />
+                }
+            </div>
         </>
     )
 }

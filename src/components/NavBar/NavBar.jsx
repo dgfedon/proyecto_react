@@ -9,7 +9,7 @@ import logo from '../../assets/img/logo.jpg';
 function NavBar() {
     return (
         <>
-            <Navbar bg="light" expand="lg" fixed="top" style={{minHeight: 100}}>
+            <Navbar bg="light" expand="lg" fixed="top" style={{minHeight: '20vh'}}>
                 <Container>
                     <div>
                         <Navbar.Brand href="#home">

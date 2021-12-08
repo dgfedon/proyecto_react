@@ -1,0 +1,24 @@
+#copy {
+    min-height: 18vh;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text--copy {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.foo-link {
+    color: #A6ACAF;
+    text-decoration: none;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out
+}
+.foo-link:hover {
+    color: gray;
+}
