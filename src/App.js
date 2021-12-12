@@ -1,6 +1,7 @@
-import ItemListContainer from "./components/ItemList/ItemListContainer";
-import NavBar from "./components/NavBar/NavBar";
-import SlideBar from "./components/NavBar/SlideBar";
+import ItemListContainer from "./components/item/ItemListContainer";
+import ItemDetailContainer from "./components/detail/ItemDetailContainer";
+import NavBar from "./components/navBar/NavBar";
+import SlideBar from "./components/navBar/SlideBar";
 import FooterContainer from "./components/footer/FooterContainer";
 
 import './App.css';
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <SlideBar titulo='Título desde App' subtitulo='Subtítulo desde App' />
       <ItemListContainer greeting='Encabezado' />
+      <ItemDetailContainer />
       <FooterContainer />
     </div>
   );

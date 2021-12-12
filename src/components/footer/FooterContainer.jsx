@@ -1,4 +1,4 @@
-import Copy from "./Copy"
+import Copy from './Copy';
 
 function FooterContainer() {
     

@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Producto 1",
     "price": 200,
+    "description": "Descripción de producto 1 => Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "img": "https://res.cloudinary.com/datafordgf/image/upload/v1638986047/React%20JS%20Proyecto/img400_newde0.jpg",
     "category": "Categoria 1",
     "stock": 5
@@ -12,6 +13,7 @@
     "id": 2,
     "name": "Producto 2",
     "price": 300,
+    "description": "Descripción de producto 2 => Illo saepe nesciunt omnis nostrum mollitia ullam consequatur necessitatibus corrupti quaerat sint! Natus, error quaerat?",
     "img": "https://res.cloudinary.com/datafordgf/image/upload/v1638986047/React%20JS%20Proyecto/img400_newde0.jpg",
     "category": "Categoria 1",
     "stock": 5
@@ -21,6 +23,7 @@
     "id": 3,
     "name": "Producto 3",
     "price": 250,
+    "description": "Descripción de producto 3 => Consectetur adipisicing elit. Facilis, ratione!",
     "img": "https://res.cloudinary.com/datafordgf/image/upload/v1638986047/React%20JS%20Proyecto/img400_newde0.jpg",
     "category": "Categoria 2",
     "stock": 10
@@ -30,6 +33,7 @@
     "id": 4,
     "name": "Producto 4",
     "price": 400,
+    "description": "Descripción de producto 4 => Ipsum dolor sit amet consectetur adipisicing elit. Facilis, ratione!",
     "img": "https://res.cloudinary.com/datafordgf/image/upload/v1638986047/React%20JS%20Proyecto/img400_newde0.jpg",
     "category": "Categoria 2",
     "stock": 8
@@ -39,6 +43,7 @@
     "id": 5,
     "name": "Producto 5",
     "price": 500,
+    "description": "Descripción de producto 5 => Lillo saepe nesciunt omnis nostrum mollitia ullam consequatur necessitatibus corrupti quaerat sint! Natus, error quaerat?",
     "img": "https://res.cloudinary.com/datafordgf/image/upload/v1638986047/React%20JS%20Proyecto/img400_newde0.jpg",
     "category": "Categoria 3",
     "stock": 10
@@ -48,6 +53,7 @@
     "id": 6,
     "name": "Producto 6",
     "price": 450,
+    "description": "Descripción de producto 6 => Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "img": "https://res.cloudinary.com/datafordgf/image/upload/v1638986047/React%20JS%20Proyecto/img400_newde0.jpg",
     "category": ["Categoria 3", "Categoria 2"],
     "stock": 5
